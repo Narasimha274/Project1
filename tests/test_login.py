@@ -11,6 +11,6 @@ class TestLogin:
 
         login.login(
             ReadConfig.get_username(),
-            ReadConfig.get_password()
+            ReadConfig.get_passwor()
         )
         assert "inventory" in driver.current_url
